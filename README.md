@@ -48,6 +48,8 @@ A broad overview of the raw data:
 - `userAgent` - the user agent used by the user to visit sparkify
 - `userId` - unique number identifying each user
 
+The Target variable for modelling, which indicates whether the customer has churned or not, is indicated by the event `Cancellation Confirmation`, in the `page` column. This is then dummy-fied into a `Churn` variable.
+
 For more information about the data, visit the [Jupyter Notebook above!](https://github.com/nit611/Sparkify-IBM-Udacity/blob/da_real_nit/Sparkify.ipynb).
 
 ## <a name="modelling"></a> Modelling
