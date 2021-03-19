@@ -70,4 +70,4 @@ Thanks to Udacity for a wonderful opporunity to learn a new technology, and get 
 
 Customer Churn is a relatively common business/product problem in real world Data Science applications, and the dataset used here is a curated almost real data, streamed from the app Sparkify. Predicting churn potentially saves millions in revenue for a company, as incentives can be offered before the customer churns, to keep them subscribed. Using Spark's high level ML library was one of the best parts about the project, where there was more opportunity to learn about each algorithm in depth, and analyze its applicability to the problem at hand, and then comparing it with the actual result (as opposed to the expected result). <br>
 
-To get a brief overview of the project apart from the notebook and this documentation, do visit [my blog here!]().
+To get a brief overview of the project apart from the notebook and this documentation, do visit [my blog here!](https://datanite.medium.com/dont-churn-or-i-ll-sparkify-you-877512ad9cca).
