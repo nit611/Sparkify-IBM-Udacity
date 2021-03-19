@@ -53,4 +53,11 @@ For more information about the data, visit the [Jupyter Notebook above!](https:/
 ## <a name="modelling"></a> Modelling
 
 1. The classification algorithms tested here are - Random Forest Classifier, Gradient Boosted Trees Classifier, Logistic Regression and Linear Support Vector Machines. The thorough documentation for the algorithms and its application is available in the [Spark ML documentation](https://spark.apache.org/docs/latest/ml-classification-regression.html).
-2. Based on the performance metric, the F1-Score, the models are evaluated and for the love of experimentation, I took 3 out of the 4 for hyperparameter tuning, which is the second part of this section of the notebook. For more detailed discussion of the parameters and algorithms selected to tune, visit the section Modelling, linked in the [Jupyter Notebook above!](https://github.com/nit611/Sparkify-IBM-Udacity/blob/da_real_nit/Sparkify.ipynb).
+2. Based on the performance metric, the **F1-Score**, the models are evaluated and for the love of experimentation, I took 3 out of the 4 for hyperparameter tuning, which is the second part of this section of the notebook. For more detailed discussion of the parameters and algorithms selected to tune, visit the section Modelling, linked in the [Jupyter Notebook above!](https://github.com/nit611/Sparkify-IBM-Udacity/blob/da_real_nit/Sparkify.ipynb).
+
+## <a name = "results"></a> Results & Thoughts
+
+The Random Forest classifier performed the best, with an **F1-Score of 88.5%** approximately. The other algorithms performed reasonably well too. However:
+
+- All this must be taken with a grain of salt, as the target variable `Churn`, is imbalanced. Even if the F1-Score does account into the metric the False Positives and False Negatives, before scaling the model to the entire 12 GB dataset, we need to be wary of the result, due to the imbalanced nature.
+- Further SMOTE-like oversampling or undersampling to equalize the size of the two classes could be more unbiased, but they come with disadvantages too. They are discussed in the last section of the notebook above.
