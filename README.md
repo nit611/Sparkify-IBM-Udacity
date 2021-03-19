@@ -7,7 +7,7 @@
 3. [Data](#data)
 4. [Modelling](#Modelling)
 5. [Results & Thoughts](#results)
-6. [Conclusion](#conclusion)
+6. [Conclusion & Acknowledgements](#conclusion)
 
 ## <a name="overview"></a> Overview
 
@@ -63,3 +63,9 @@ The Random Forest classifier performed the best, with an **F1-Score of 88.5%** a
 
 - All this must be taken with a grain of salt, as the target variable `Churn`, is imbalanced. Even if the F1-Score does account into the metric the False Positives and False Negatives, before scaling the model to the entire 12 GB dataset, we need to be wary of the result, due to the imbalanced nature.
 - Further SMOTE-like oversampling or undersampling to equalize the size of the two classes could be more unbiased, but they come with disadvantages too. They are discussed in the last section of the notebook above.
+
+## <a name = "conclusion"></a> Conclusion & Acknowledgements
+
+Thanks to Udacity for a wonderful opporunity to learn a new technology, and get experience with it by hands-on applications. The end is near to this nanodegree, but the journey as a Data Scientist begins! So, a big shoutout to them!
+
+Customer Churn is a relatively common business/product problem in real world Data Science applications, and the dataset used here is a curated almost real data, streamed from the app Sparkify. Predicting churn potentially saves millions in revenue for a company, as incentives can be offered before the customer churns, to keep them subscribed. Using Spark's high level ML library was one of the best parts about the project, where there was more opportunity to learn about each algorithm in depth, and analyze its applicability to the problem at hand, and then comparing it with the actual result (as opposed to the expected result).
