@@ -47,3 +47,5 @@ A broad overview of the raw data:
 - `ts` - the timestamp of each session
 - `userAgent` - the user agent used by the user to visit sparkify
 - `userId` - unique number identifying each user
+
+For more information about the data, visit the [Jupyter Notebook above!](@Sparkify.ipynb)
