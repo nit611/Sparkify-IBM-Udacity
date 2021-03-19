@@ -33,17 +33,17 @@ Using `pyspark`, the project broadly involves the following:
 The data is provided by Udacity. Due to the size of the data, it is not avaialable in this repository. <br>
 A broad overview of the raw data:
 
-- artist - the artist of the soundtrack
-- auth - variable indicating whether the user has cancelled the subscription or not
-- firstName - first name of the user
-- gender - gender of the user
-- ItemInSession - Item ID for each session (row) recorded
-- lastName - last name of the user
-- length - length of each session by the user
-- level - the level of subscription of the user (free trial or paid)
-- location - location data of the user (city and state)
-- page - the page in Sparkify the user visited in each session
-- song - the song listened to in each session, by the user
-- ts - the timestamp of each session
-- userAgent - the user agent used by the user to visit sparkify
-- userId - unique number identifying each user
+- `artist` - the artist of the soundtrack
+- `auth` - variable indicating whether the user has cancelled the subscription or not
+- `firstName` - first name of the user
+- `gender` - gender of the user
+- `ItemInSession` - Item ID for each session (row) recorded
+- `lastName` - last name of the user
+- `length` - length of each session by the user
+- `level` - the level of subscription of the user (free trial or paid)
+- `location` - location data of the user (city and state)
+- `page` - the page in Sparkify the user visited in each session
+- `song` - the song listened to in each session, by the user
+- `ts` - the timestamp of each session
+- `userAgent` - the user agent used by the user to visit sparkify
+- `userId` - unique number identifying each user
