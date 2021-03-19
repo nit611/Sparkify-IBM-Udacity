@@ -21,3 +21,9 @@ Using `pyspark`, the project broadly involves the following:
 - Feature Engineering - appropriate features are selected based on the EDA, as well as creating new features from existing data, to create a final dataset ready for training using Spark's ML.
 - Modelling - four different classification algorithms are tested, based on its characteristics, and is evaluated using metrics. This section also involves further tuning of the model that has highest potential (based on the metric defined)
 - Concluding Remarks - This section summarizes the whole project, along with a couple of thoughts and possible improvements to the project for further scalability to the whole dataset.
+
+## <a name="installations"></a> Installations
+
+- Python 3.6+
+- `pyspark.*`
+- Jupyter - available through [this link](https://jupyter.org/install), or IBM Watson Studio (Lite)
