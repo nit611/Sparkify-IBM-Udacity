@@ -54,7 +54,7 @@ For more information about the data, visit the [Jupyter Notebook above!](https:/
 
 ## <a name="modelling"></a> Modelling
 
-1. The classification algorithms tested here are - Random Forest Classifier, Gradient Boosted Trees Classifier, Logistic Regression and Linear Support Vector Machines. The thorough documentation for the algorithms and its application is available in the [Spark ML documentation](https://spark.apache.org/docs/latest/ml-classification-regression.html).
+1. The classification algorithms tested here are - `RandomForestClassifier`, Gradient Boosted Trees Classifier (`GBTClassifier`), `LogisticRegression` and Linear Support Vector Machines (`LinearSVM`). The thorough documentation for the algorithms and its application is available in the [Spark ML documentation](https://spark.apache.org/docs/latest/ml-classification-regression.html).
 2. Based on the performance metric, the **F1-Score**, the models are evaluated and for the love of experimentation, I took 3 out of the 4 for hyperparameter tuning, which is the second part of this section of the notebook. For more detailed discussion of the parameters and algorithms selected to tune, visit the section Modelling, linked in the [Jupyter Notebook above!](https://github.com/nit611/Sparkify-IBM-Udacity/blob/da_real_nit/Sparkify.ipynb).
 
 ## <a name = "results"></a> Results & Thoughts
