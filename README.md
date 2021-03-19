@@ -61,7 +61,7 @@ For more information about the data, visit the [Jupyter Notebook above!](https:/
 
 The Random Forest classifier performed the best, with an **F1-Score of 88.5%** approximately. The other algorithms performed reasonably well too. However:
 
-- All this must be taken with a grain of salt, as the target variable `Churn`, is imbalanced. Even if the F1-Score does account into the metric the False Positives and False Negatives, before scaling the model to the entire 12 GB dataset, we need to be wary of the result, due to the imbalanced nature.
+- This result must be taken with a grain of salt, as the target variable `Churn`, is imbalanced. Even if the F1-Score does account into the metric the False Positives and False Negatives, before scaling the model to the entire 12 GB dataset, we need to be wary of the result, due to the imbalanced nature.
 - Further SMOTE-like oversampling or undersampling to equalize the size of the two classes could be more unbiased, but they come with disadvantages too. They are discussed in the last section of the notebook above.
 
 ## <a name = "conclusion"></a> Conclusion & Acknowledgements
