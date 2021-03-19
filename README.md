@@ -28,7 +28,7 @@ Using `pyspark`, the project broadly involves the following:
 - `pyspark.*`
 - Jupyter - available through [this link](https://jupyter.org/install), or IBM Watson Studio (Lite)
 
-### <a name="data"></a> Data
+## <a name="data"></a> Data
 
 The data is provided by Udacity. Due to the size of the data, it is not avaialable in this repository. <br>
 A broad overview of the raw data:
@@ -48,4 +48,9 @@ A broad overview of the raw data:
 - `userAgent` - the user agent used by the user to visit sparkify
 - `userId` - unique number identifying each user
 
-For more information about the data, visit the [Jupyter Notebook above!](@Sparkify.ipynb)
+For more information about the data, visit the [Jupyter Notebook above!](https://github.com/nit611/Sparkify-IBM-Udacity/blob/da_real_nit/Sparkify.ipynb).
+
+## <a name="modelling"></a> Modelling
+
+1. The classification algorithms tested here are - Random Forest Classifier, Gradient Boosted Trees Classifier, Logistic Regression and Linear Support Vector Machines. The thorough documentation for the algorithms and its application is available in the [Spark ML documentation](https://spark.apache.org/docs/latest/ml-classification-regression.html).
+2. Based on the performance metric, the F1-Score, the models are evaluated and for the love of experimentation, I took 3 out of the 4 for hyperparameter tuning, which is the second part of this section of the notebook. For more detailed discussion of the parameters and algorithms selected to tune, visit the section Modelling, linked in the [Jupyter Notebook above!](https://github.com/nit611/Sparkify-IBM-Udacity/blob/da_real_nit/Sparkify.ipynb).
